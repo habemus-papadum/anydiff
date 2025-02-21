@@ -1,0 +1,20 @@
+{
+  "name": "diffy-anywidget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "esbuild index.js --format=esm --bundle --outfile=bundle.js --watch",
+    "build": "esbuild index.js --format=esm  --bundle --minify --outfile=bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codemirror": "^6",
+    "@codemirror/merge":"^6"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
